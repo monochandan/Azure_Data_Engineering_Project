@@ -1,0 +1,9 @@
+{
+	"name": "adf-horizon-demo-01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72dd851e-0dd0-4b07-88b2-cb2583e8c98f",
+		"tenantId": "b3af098c-7399-4432-9d7e-1aec47c5a1d8"
+	}
+}
