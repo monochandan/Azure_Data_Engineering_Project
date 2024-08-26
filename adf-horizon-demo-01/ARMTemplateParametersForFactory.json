@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-horizon-demo-01"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://asahorizon.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0820-180715-v53x7kjl"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kv-horizon-demo-01.vault.azure.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-MBL3DGJC\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2017"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "new_data"
+		},
+		"onpremsqlserver_properties_typeProperties_server": {
+			"value": "LAPTOP-MBL3DGJC\\SQLEXPRESS"
+		},
+		"onpremsqlserver_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2017"
+		},
+		"onpremsqlserver_properties_typeProperties_userName": {
+			"value": "new_data"
+		}
+	}
+}
