@@ -1,6 +1,5 @@
 {
 	"name": "AzureDatabricks1",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureDatabricks",
@@ -16,5 +15,6 @@
 			},
 			"existingClusterId": "0820-180715-v53x7kjl"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
